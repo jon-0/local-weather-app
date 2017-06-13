@@ -7,7 +7,7 @@ var temperature;
 var skycons = new Skycons();
 
 function changeBackground(icon){
-	$('body').css("background", "url(../media/" + icon + ".jpeg)");
+	$('body').css("background", "url(media/" + icon + ".jpeg)");
 	$('button').css("display", "none");
 	$('#summary-info-box').css("display", "inline-block");
 }
